@@ -7,6 +7,6 @@ const record = [
 
 
 const superbowlWin = (record) => {
-  if (record.find(r => r.result === "W"
+  let win = record.find(r => r.result === "W")
   
 }
