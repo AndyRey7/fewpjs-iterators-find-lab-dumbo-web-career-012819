@@ -1,6 +1,14 @@
-const superbowlWin = (array) => {
-  if (array.find(array[result] === "W")) {
-    return array[year]
+const record = [
+  {year: "2018", result: "L"},
+  {year: "2017", result: "W"},
+  {year: "2016", result: "N/A"}
+  ]
+
+
+
+const superbowlWin = (record) => {
+  if (record.find(record[result] === "W")) {
+    return record[year]
   } else {
     undefined
   }
