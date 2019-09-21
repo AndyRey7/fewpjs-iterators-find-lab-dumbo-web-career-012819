@@ -8,7 +8,7 @@ const record = [
 
 const superbowlWin = (record) => {
   let win = record.find(r => r.result === "W")
-  if (win === "W") {
+  if (win.result === "W") {
     return win.year
   } else {
     undefined
