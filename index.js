@@ -8,5 +8,5 @@ const record = [
 
 const superbowlWin = (record) => {
   let win = record.find(r => r.result === "W")
-  return !!win ? win.year : undefined
+  return win ? win.year : undefined
 }
